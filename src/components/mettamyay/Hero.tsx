@@ -29,14 +29,12 @@ const Hero = () => {
           <span className="font-display font-medium text-mm-gold block mb-1 tracking-[0.1em]" style={{ fontSize: "clamp(1.8rem, 4.5vw, 4.5rem)" }}>
             {t("hero.brand")}
           </span>
-          {t("hero.line1a")} <em className="italic text-mm-clay-light">{t("hero.line1b")}</em>
+          {t("hero.headline1")} <em className="italic text-mm-clay-light">{t("hero.headline2")}</em>
           <br />
-          {t("hero.line2a")} <em className="italic text-mm-clay-light">{t("hero.line2b")}</em>
-          <br />
-          {t("hero.line3a")} <em className="italic text-mm-clay-light">{t("hero.line3b")}</em>
+          {t("hero.headline3")} <em className="italic text-mm-clay-light">{t("hero.headline4")}</em>
         </h1>
 
-        <p className="font-serif-elegant font-light italic text-mm-sand/70 max-w-[560px] mb-12 mm-fade-up mm-fade-delay-3" style={{ fontSize: "clamp(1rem, 2vw, 1.5rem)" }}>
+        <p className="font-serif-elegant font-light italic text-mm-sand/70 max-w-[640px] mb-12 mm-fade-up mm-fade-delay-3" style={{ fontSize: "clamp(1rem, 1.6vw, 1.25rem)" }}>
           {t("hero.sub")}
         </p>
 

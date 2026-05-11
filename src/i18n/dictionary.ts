@@ -18,31 +18,39 @@ export const dict = {
   "nav.langMY":     { en: "MY", my: "မြန်မာ" },
 
   // ── Hero ───────────────────────────────────────────────────────────
-  "hero.eyebrow": { en: "Myanmar — Earth — Spirit — Future", my: "မြန်မာမြေ — စိတ်ဝိညာဉ် — အနာဂတ်" },
+  // Locked tagline pair (11 May 2026 brief). Poetry lines (hero.line*) are
+  // preserved and reused as the Vision section refrain — do not delete.
+  "hero.eyebrow": { en: "Baka Sustainability Initiative · Natural-Building Pillar", my: "မြန်မာ့ဘက ရေရှည်တည်တံ့မှု အစီအစဉ် · သဘာဝဆောက်လုပ်ရေး မဏ္ဍိုင်" },
   "hero.brand":   { en: "Mettamyay", my: "မေတ္တာမြေ" },
-  "hero.line1a":  { en: "Build with",  my: "မြေနဲ့" },
-  "hero.line1b":  { en: "earth.",      my: "တည်ဆောက်ပါ။" },
-  "hero.line2a":  { en: "Grow with",   my: "ရည်ရွယ်ချက်နဲ့" },
-  "hero.line2b":  { en: "purpose.",    my: "ကြီးထွားပါ။" },
-  "hero.line3a":  { en: "Live with",   my: "ပျော်ရွှင်စွာ" },
-  "hero.line3b":  { en: "joy.",        my: "နေထိုင်ပါ။" },
+  "hero.headline1": { en: "We don't just build",      my: "အဆောက်အအုံတွေ" },
+  "hero.headline2": { en: "buildings.",                my: "ဆောက်ရုံမက —" },
+  "hero.headline3": { en: "We build",                  my: "ဆောက်တတ်သူတွေကိုလည်း" },
+  "hero.headline4": { en: "builders.",                 my: "မွေးထုတ်ပါသည်။" },
   "hero.sub": {
-    en: "A Myanmar-born movement where compassionate building becomes beautiful living, meaningful opportunity, and joyful community.",
-    my: "ကရုဏာဖြင့် တည်ဆောက်ခြင်းသည် လှပသော နေထိုင်မှု၊ အဓိပ္ပါယ်ရှိသော အခွင့်အလမ်း၊ နှင့် ပျော်ရွှင်သော ရပ်ရွာအသိုက်အဝန်းအဖြစ် ပြောင်းလဲစေသည့် မြန်မာမြေမှ မွေးဖွားသော လှုပ်ရှားမှု။",
+    en: "Mettamyay is the natural-building and livelihood pillar of the Baka Sustainability Initiative — teaching people to build, teach, earn, and replicate.",
+    my: "မေတ္တာမြေသည် မြန်မာ့ဘက ရေရှည်တည်တံ့မှု အစီအစဉ်၏ သဘာဝဆောက်လုပ်ရေးနှင့် အသက်မွေးဝမ်းကျောင်း မဏ္ဍိုင်ဖြစ်သည်။ မြေ၊ ဒေသခံ ပစ္စည်းများ၊ သဘာဝနည်းလမ်းများဖြင့် တည်ဆောက်တတ်ရန် သင်ပေး၊ သင်ပြ၊ ဝင်ငွေရှာ၊ ပြန့်ပွားနိုင်စေသော လှုပ်ရှားမှု ဖြစ်ပါသည်။",
   },
   "hero.cta1":  { en: "Explore the Movement", my: "လှုပ်ရှားမှုကို ရှာဖွေပါ" },
   "hero.cta2":  { en: "Find Your Path",       my: "သင့်လမ်းကြောင်းကို ရှာပါ" },
   "hero.scroll":{ en: "Scroll",               my: "ဆက်ကြည့်ပါ" },
 
+  // Refrain (originally the hero three-line poetry — relocated to Vision strap)
+  "refrain.line1a":  { en: "Build with",  my: "မြေနဲ့" },
+  "refrain.line1b":  { en: "earth.",      my: "တည်ဆောက်ပါ။" },
+  "refrain.line2a":  { en: "Grow with",   my: "ရည်ရွယ်ချက်နဲ့" },
+  "refrain.line2b":  { en: "purpose.",    my: "ကြီးထွားပါ။" },
+  "refrain.line3a":  { en: "Live with",   my: "ပျော်ရွှင်စွာ" },
+  "refrain.line3b":  { en: "joy.",        my: "နေထိုင်ပါ။" },
+
   // ── Manifesto ──────────────────────────────────────────────────────
   "man.eyebrow": { en: "Our Belief", my: "ကျွန်ုပ်တို့၏ ယုံကြည်ချက်" },
-  "man.title1":  { en: "We don't just build homes.", my: "ကျွန်ုပ်တို့ အိမ်တွေကိုသာ မတည်ဆောက်ပါ။" },
-  "man.title2a": { en: "We build the", my: "ထိုအိမ်များကို တည်ဆောက်မည့်" },
-  "man.title2b": { en: "people",       my: "လူသား" },
-  "man.title2c": { en: "who build them.", my: "များကိုပါ တည်ဆောက်ပါသည်။" },
+  "man.title1":  { en: "We don't just build buildings.", my: "ကျွန်ုပ်တို့သည် အဆောက်အအုံများကိုသာ မတည်ဆောက်ပါ။" },
+  "man.title2a": { en: "We build the", my: "ထိုအဆောက်အအုံများကို တည်ဆောက်မည့်" },
+  "man.title2b": { en: "builders",     my: "ဆောက်တတ်သူ" },
+  "man.title2c": { en: "who build them.", my: "များကိုပါ မွေးထုတ်ပါသည်။" },
   "man.body": {
-    en: "Led by the wisdom of monks and guided by the hands of skilled builders, Mettamyay is a platform for earthen building skills, leadership formation, contractor development, and community connection — rooted in Myanmar, ready for the world.",
-    my: "ဆရာတော်များ၏ ပညာဉာဏ်ဖြင့် ဦးဆောင်ပြီး၊ ကျွမ်းကျင်သော တည်ဆောက်သူများ၏ လက်ဖြင့် လမ်းညွှန်ထားသော မေတ္တာမြေသည် မြေသား အဆောက်အအုံ ပညာရပ်များ၊ ခေါင်းဆောင်မှု ပျိုးထောင်ရေး၊ ကန်ထရိုက်တာ ဖွံ့ဖြိုးတိုးတက်ရေး၊ နှင့် ရပ်ရွာ ပူးပေါင်းမှုအတွက် ပလက်ဖောင်းတစ်ခုဖြစ်ပါသည် — မြန်မာမြေတွင် အရင်းအမြစ်ပြုပြီး၊ ကမ္ဘာအတွက် အသင့်။",
+    en: "Mettamyay is a self-replicating natural-building education and livelihood movement, operating under the Baka Sustainability Initiative. Led by the wisdom of monks and the hands of skilled builders, we teach people to build, teach the next cohort, earn from their craft, and replicate the knowledge in their own communities.",
+    my: "မေတ္တာမြေသည် မြန်မာ့ဘက ရေရှည်တည်တံ့မှု အစီအစဉ်အောက်တွင် ပြန့်ပွားနိုင်သော သဘာဝဆောက်လုပ်ရေး ပညာရေးနှင့် အသက်မွေး လှုပ်ရှားမှုဖြစ်သည်။ ဆရာတော်များ၏ ပညာဉာဏ်နှင့် ကျွမ်းကျင်သော တည်ဆောက်သူများ၏ လက်ဖြင့် လမ်းညွှန်ကာ — တည်ဆောက်တတ်ရန် သင်ပေး၊ နောက်တစ်ဆင့်ကို ပြန်လည် သင်ကြားပေး၊ မိမိအတတ်ဖြင့် ဝင်ငွေရှာ၊ မိမိ၏ ရပ်ရွာတွင် ပြန်လည် ပြန့်ပွားနိုင်အောင် လုပ်ဆောင်သည်။",
   },
   "man.quote": {
     en: "From the earth beneath our feet, we find not only shelter, but the very ground of our becoming.",
@@ -75,34 +83,56 @@ export const dict = {
     my: "လှသော အိမ်များ၊ အဓိပ္ပါယ်ရှိသော အလုပ်များ၊ အမှန်တကယ် ရှင်သန်နေသော အသိုက်အဝန်းများ။ ကျွန်ုပ်တို့သည် မိုးကာရုံသာ မဟုတ်ဘဲ လူတိုင်း နေထိုင်လိုသည့် ပိုင်ဆိုင်မှု ခံစားမှု ရှိသော နေရာများကို တည်ဆောက်ပါသည်။",
   },
 
-  // ── Model ──────────────────────────────────────────────────────────
-  "model.eyebrow": { en: "The Mettamyay Model", my: "မေတ္တာမြေ ပုံစံ" },
-  "model.title":   { en: "A self-reinforcing ecosystem.", my: "မိမိကိုယ်ကို အားပြုပေးနေသည့် ဂေဟစနစ်။" },
-  "model.sub":     { en: "From first skills to community leadership — every step builds the next.", my: "အစပိုင်း ကျွမ်းကျင်မှုမှ ရပ်ရွာ ခေါင်းဆောင်မှုထိ — အဆင့်တိုင်းသည် နောက်တစ်ဆင့်ကို တည်ဆောက်ပါသည်။" },
+  // ── Model (Replication Cycle — 5 steps, drawn as a loop) ──────────
+  "model.eyebrow": { en: "The Replication Cycle", my: "ပြန့်ပွားမှု စက်ဝန်း" },
+  "model.title":   { en: "A self-replicating cycle.", my: "မိမိကိုယ်ကို ပြန့်ပွားစေသော စက်ဝန်း။" },
+  "model.sub":     { en: "Learn → Build → Teach → Earn → Replicate. Teach-before-Earn is what makes the movement multiply.", my: "သင်ယူ → တည်ဆောက် → သင်ကြား → ဝင်ငွေရှာ → ပြန့်ပွား။ ဝင်ငွေမရှာမီ သင်ကြားခြင်းက လှုပ်ရှားမှုကို ပွားများစေသည်။" },
   "model.s1.tag":  { en: "01 — Learn", my: "၀၁ — သင်ယူ" },
-  "model.s1.t":    { en: "Earth Skills", my: "မြေသား ကျွမ်းကျင်မှုများ" },
+  "model.s1.t":    { en: "Earth Skills", my: "မြေသား ကျွမ်းကျင်မှု" },
   "model.s1.b": {
-    en: "Compressed earth blocks (CEB), lime plaster, structural logic, site management, and aesthetic craft.",
-    my: "ဖိသိပ်ထားသော မြေသားအုတ်များ (CEB)၊ ထုံးအင်္ဂတေ၊ ဖွဲ့စည်းပုံ ဆိုင်ရာ ယုတ္တိ၊ ဆိုက်အကြီး၊ အလှအပ ပညာရပ်များ။",
+    en: "Awareness sessions, hands-on workshops, and mentorship in compressed earth blocks, lime plaster, bamboo, and passive cooling.",
+    my: "သိမြင်ရေး ဆွေးနွေးပွဲများ၊ လက်တွေ့ အလုပ်ရုံများ၊ ဖိသိပ်မြေသားအုတ် (CEB)၊ ထုံးအင်္ဂတေ၊ ဝါး၊ နှင့် သဘာဝ အအေးပေး နည်းလမ်းများ။",
   },
-  "model.s2.tag":  { en: "02 — Lead", my: "၀၂ — ဦးဆောင်" },
-  "model.s2.t":    { en: "Leadership", my: "ခေါင်းဆောင်မှု" },
+  "model.s2.tag":  { en: "02 — Build", my: "၀၂ — တည်ဆောက်" },
+  "model.s2.t":    { en: "Live Classrooms", my: "လက်တွေ့ စာသင်ခန်းများ" },
   "model.s2.b": {
-    en: "Selected graduates grow into site leaders, community mentors, and quality-certified professionals.",
-    my: "ရွေးချယ်ခံရသူများသည် ဆိုက်အကြီး၊ ရပ်ရွာ ထောက်ပံ့သူ၊ အရည်အသွေး အသိအမှတ်ပြုခံ ပညာရှင်များ ဖြစ်လာသည်။",
+    en: "Apprentices apply skills on real demonstration projects. The buildings are a side effect of the training — the graduates are the product.",
+    my: "သင်တန်းသားများသည် လက်တွေ့ စီမံကိန်းများတွင် ကျွမ်းကျင်မှုကို အသုံးပြုသည်။ အဆောက်အအုံများသည် သင်တန်း၏ ဘေးထွက်အကျိုးဖြစ်ပြီး — အဓိက ထွက်ကုန်မှာ ဘွဲ့ရသူများ ဖြစ်သည်။",
   },
-  "model.s3.tag":  { en: "03 — Build", my: "၀၃ — တည်ဆောက်" },
-  "model.s3.t":    { en: "Real Projects", my: "လက်တွေ့ စီမံကိန်းများ" },
+  "model.s3.tag":  { en: "03 — Teach", my: "၀၃ — သင်ကြား" },
+  "model.s3.t":    { en: "The Multiplier", my: "ပွားများစေသူ" },
   "model.s3.b": {
-    en: "Homes, monasteries, eco-retreats, schools, and community spaces — proof-of-work that earns trust and income.",
-    my: "အိမ်များ၊ ဘုန်းတော်ကြီး ကျောင်းများ၊ စားသင်ကျောင်းများ၊ သဘာဝ အပန်းဖြေ နေရာများ၊ ရပ်ရွာ နေရာများ။",
+    en: "Graduates teach the next cohort. This is the step that turns a project into a movement.",
+    my: "ဘွဲ့ရသူများက နောက်တစ်ဆင့် သင်တန်းသားများကို ပြန်လည် သင်ကြားပေးသည်။ ဤအဆင့်က စီမံကိန်းကို လှုပ်ရှားမှုအဖြစ် ပြောင်းလဲစေသည်။",
   },
-  "model.s4.tag":  { en: "04 — Connect", my: "၀၄ — ချိတ်ဆက်" },
-  "model.s4.t":    { en: "The Network", my: "ကွန်ယက်" },
+  "model.s4.tag":  { en: "04 — Earn", my: "၀၄ — ဝင်ငွေရှာ" },
+  "model.s4.t":    { en: "Livelihood", my: "အသက်မွေးဝမ်းကျောင်း" },
   "model.s4.b": {
-    en: "Mettamyay matches certified builders with patrons, links partners locally and internationally, and grows a network that sustains itself through every project.",
-    my: "အရည်အသွေး အသိအမှတ်ပြုခံ တည်ဆောက်သူများကို ဖော်သည်များနှင့် ချိတ်ဆက်ပေး၊ ပြည်တွင်း ပြည်ပ မိတ်ဖက်များကို ဆက်စပ်ပေး။",
+    en: "Trained builders generate livelihoods — construction, repair, materials supply, and eco-spaces — across Myanmar.",
+    my: "လေ့ကျင့်ပြီး တည်ဆောက်သူများသည် ဆောက်လုပ်ရေး၊ ပြင်ဆင်ရေး၊ ပစ္စည်း ထောက်ပံ့ရေး၊ နှင့် သဘာဝ နေထိုင်ရာ နေရာများမှ ဝင်ငွေကို မြန်မာတဝန်းတွင် ရှာဖွေသည်။",
   },
+  "model.s5.tag":  { en: "05 — Replicate", my: "၀၅ — ပြန့်ပွား" },
+  "model.s5.t":    { en: "Seed New Villages", my: "ရွာသစ်များတွင် ပျိုးထောင်" },
+  "model.s5.b": {
+    en: "Master trainers seed new villages, monasteries, and communities. The cycle restarts there — and the movement grows.",
+    my: "ကျွမ်းကျင်ဆရာများသည် ရွာသစ်များ၊ ဘုန်းတော်ကြီးကျောင်းများ၊ ရပ်ရွာအသိုက်အဝန်းများတွင် ပြန်လည် ပျိုးထောင်ပေးသည်။ ထိုနေရာတွင် စက်ဝန်း ပြန်စပြီး လှုပ်ရှားမှု ပိုကြီးထွားသည်။",
+  },
+
+  // ── What We Are / What We Are Not ─────────────────────────────────
+  "wwa.eyebrow":     { en: "Clarity", my: "ရှင်းရှင်းလင်းလင်း" },
+  "wwa.title":       { en: "What we are. What we are not.", my: "ဘာဖြစ်သည်။ ဘာမဟုတ်သည်။" },
+  "wwa.areHeading":  { en: "We are", my: "ဖြစ်သည်" },
+  "wwa.notHeading":  { en: "We are not", my: "မဟုတ်ပါ" },
+  "wwa.are1": { en: "A natural-building education movement",                          my: "သဘာဝဆောက်လုပ်ရေး ပညာရေး လှုပ်ရှားမှု" },
+  "wwa.are2": { en: "A training, certification, and awareness platform",              my: "သင်တန်း၊ အသိအမှတ်ပြုလက်မှတ်၊ နှင့် သိမြင်ရေး ပလက်ဖောင်း" },
+  "wwa.are3": { en: "A livelihood and skills-development initiative",                 my: "အသက်မွေးဝမ်းကျောင်းနှင့် ကျွမ်းကျင်မှု ဖွံ့ဖြိုးရေး အစီအစဉ်" },
+  "wwa.are4": { en: "A pillar of the Baka Sustainability Initiative",                 my: "မြန်မာ့ဘက ရေရှည်တည်တံ့မှု အစီအစဉ်၏ မဏ္ဍိုင်တစ်ရပ်" },
+  "wwa.are5": { en: "A self-replicating, community-led model",                        my: "ပြန့်ပွားနိုင်ပြီး ရပ်ရွာ ဦးဆောင်သော ပုံစံ" },
+  "wwa.not1": { en: "A construction contractor or builder-for-hire",                  my: "ဆောက်လုပ်ရေး ကန်ထရိုက်တာ သို့မဟုတ် ငှားရမ်း တည်ဆောက်သူ မဟုတ်ပါ" },
+  "wwa.not2": { en: "A charity that builds for beneficiaries",                        my: "အကျိုးခံစားသူများအတွက် တည်ဆောက်ပေးသော စွန့်ကြဲလုပ်ငန်း မဟုတ်ပါ" },
+  "wwa.not3": { en: "A one-time workshop project",                                    my: "တစ်ကြိမ်တည်း အလုပ်ရုံ စီမံကိန်း မဟုတ်ပါ" },
+  "wwa.not4": { en: "A school-building-only organisation",                            my: "ကျောင်းဆောက်ရုံသာ လုပ်သော အဖွဲ့အစည်း မဟုတ်ပါ" },
+  "wwa.not5": { en: "A foreign-style architecture brand",                             my: "နိုင်ငံခြားပုံစံ ဗိသုကာ အမှတ်တံဆိပ် မဟုတ်ပါ" },
 
   // ── Stats ──────────────────────────────────────────────────────────
   "stats.pillars":   { en: "Core Pillars",         my: "အဓိက မဏ္ဍိုင်များ" },
@@ -135,13 +165,13 @@ export const dict = {
   },
   "role.youth.cta":        { en: "Apply for a Cohort", my: "သင်တန်း လျှောက်ပါ" },
 
-  "role.partner.label":    { en: "For Organizations", my: "အဖွဲ့အစည်းများအတွက်" },
-  "role.partner.title":    { en: "I Want to Partner", my: "ပူးပေါင်းလိုပါသည်" },
+  "role.partner.label":    { en: "For Monks & Baka Schools", my: "ဘုန်းတော်ကြီးနှင့် ဘကကျောင်းများအတွက်" },
+  "role.partner.title":    { en: "I Lead a Monastic School or Sangha", my: "ဘုန်းတော်ကြီးကျောင်း သို့မဟုတ် သံဃာအဖွဲ့ကို ဦးဆောင်နေသူ ဖြစ်သည်" },
   "role.partner.body": {
-    en: "Align your NGO, company, or institution with a Myanmar-rooted movement building skills, community, and sustainable futures.",
-    my: "သင်၏ NGO၊ ကုမ္ပဏီ၊ သို့မဟုတ် အဖွဲ့အစည်းကို မြန်မာမြေတွင် အရင်းအမြစ်ပြုသော လှုပ်ရှားမှုနှင့် ပူးပေါင်းပါ။",
+    en: "Bring Mettamyay training, certification, and demonstration builds to your monastic school or sangha — under the Baka Sustainability Initiative.",
+    my: "မေတ္တာမြေ၏ သင်တန်း၊ အသိအမှတ်ပြုလက်မှတ်၊ နှင့် နမူနာ တည်ဆောက်မှုများကို သင့်ဘုန်းတော်ကြီးကျောင်း သို့မဟုတ် သံဃာအဖွဲ့သို့ ခေါ်ဆောင်လာပါ — မြန်မာ့ဘက ရေရှည်တည်တံ့မှု အစီအစဉ်အောက်တွင်။",
   },
-  "role.partner.cta":      { en: "Partner With Us", my: "ပူးပေါင်းပါ" },
+  "role.partner.cta":      { en: "Bring Mettamyay Here", my: "ဤနေရာသို့ ခေါ်ဆောင်ပါ" },
 
   "role.client.label":     { en: "For Patrons / Clients", my: "ဖော်သည်များအတွက်" },
   "role.client.title":     { en: "I Have a Project", my: "စီမံကိန်း ရှိပါသည်" },
@@ -151,13 +181,13 @@ export const dict = {
   },
   "role.client.cta":       { en: "Explore Projects", my: "စီမံကိန်းများ ကြည့်ပါ" },
 
-  "role.support.label":    { en: "For Supporters", my: "ထောက်ပံ့ကူညီလိုသူများအတွက်" },
-  "role.support.title":    { en: "I Want to Support", my: "ထောက်ပံ့လိုပါသည်" },
+  "role.support.label":    { en: "For Funders & Supporters", my: "ပံ့ပိုးကူညီသူများအတွက်" },
+  "role.support.title":    { en: "I Want to Underwrite the Movement", my: "လှုပ်ရှားမှုကို ထောက်ပံ့လိုပါသည်" },
   "role.support.body": {
-    en: "Fund training cohorts, sponsor a community build, or contribute to the movement that's shaping Myanmar's earthen future.",
-    my: "သင်တန်းများကို ထောက်ပံ့ပါ၊ ရပ်ရွာ တည်ဆောက်ရေးကို ပံ့ပိုးပါ၊ မြန်မာမြေ၏ မြေသား အနာဂတ်ကို ပုံဖော်နေသော လှုပ်ရှားမှုသို့ ပါဝင်ပါ။",
+    en: "Every contribution trains builders. $50 covers a workshop seat · $200 a toolkit · $1,000 a small build · $5,000 trains 10 apprentices · $10,000 trains 20 + provides toolkits · $25,000 underwrites a full cohort + demonstration build · $50,000 establishes a new training location.",
+    my: "ပံ့ပိုးမှုတိုင်းသည် တည်ဆောက်သူများကို လေ့ကျင့်ပေးသည်။ $၅၀ — အလုပ်ရုံ နေရာတစ်နေရာ · $၂၀၀ — ကိရိယာအစုံ · $၁,၀၀၀ — အသေးစား တည်ဆောက်မှု · $၅,၀၀၀ — သင်တန်းသား ၁၀ ဦး · $၁၀,၀၀၀ — ၂၀ ဦး + ကိရိယာများ · $၂၅,၀၀၀ — အပြည့်အဝ သင်တန်း + နမူနာ တည်ဆောက်မှု · $၅၀,၀၀၀ — သင်တန်းနေရာသစ်တစ်ခု။",
   },
-  "role.support.cta":      { en: "Support Mettamyay", my: "မေတ္တာမြေကို ထောက်ပံ့ပါ" },
+  "role.support.cta":      { en: "Make a Contribution", my: "ပံ့ပိုးကူညီပါ" },
 
   "role.contractor.label": { en: "For Builders", my: "တည်ဆောက်သူများအတွက်" },
   "role.contractor.title": { en: "I'm a Contractor", my: "ကန်ထရိုက်တာ ဖြစ်သည်" },

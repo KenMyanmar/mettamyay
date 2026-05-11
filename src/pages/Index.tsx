@@ -1,6 +1,7 @@
 import Nav from "@/components/mettamyay/Nav";
 import Hero from "@/components/mettamyay/Hero";
 import Manifesto from "@/components/mettamyay/Manifesto";
+import WhatWeAre from "@/components/mettamyay/WhatWeAre";
 import Pillars from "@/components/mettamyay/Pillars";
 import Model from "@/components/mettamyay/Model";
 import Stats from "@/components/mettamyay/Stats";
@@ -18,6 +19,7 @@ const Index = () => (
     <Nav />
     <Hero />
     <Manifesto />
+    <WhatWeAre />
     <Pillars />
     <Model />
     <Stats />

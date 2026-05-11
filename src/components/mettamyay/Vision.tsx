@@ -8,6 +8,9 @@ const Vision = () => {
   return (
     <section id="vision" className="py-28 px-6 md:px-12 bg-mm-moss text-center relative overflow-hidden vision-watermark">
       <div ref={ref} className="mm-reveal relative z-[1] max-w-[760px] mx-auto">
+        <p className="font-serif-elegant italic text-mm-gold-light/80 text-[0.95rem] md:text-[1.05rem] tracking-wide mb-3">
+          {t("refrain.line1a")} <em>{t("refrain.line1b")}</em> · {t("refrain.line2a")} <em>{t("refrain.line2b")}</em> · {t("refrain.line3a")} <em>{t("refrain.line3b")}</em>
+        </p>
         <p className="font-display text-[0.65rem] tracking-[0.3em] uppercase text-mm-clay mb-6 flex items-center justify-center gap-3">
           <span className="w-8 h-px bg-mm-clay inline-block" />
           {t("vision.eyebrow")}
