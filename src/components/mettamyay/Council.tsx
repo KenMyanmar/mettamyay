@@ -5,14 +5,18 @@ import type { DictKey } from "@/i18n/dictionary";
 
 type Member = { nameKey: DictKey; roleKey: DictKey; seed: string; lead?: boolean };
 
+// Locked 8-member council list (11 May 2026). Burmese spellings for m1, m3, m4
+// are best-guesses pending Sayadaw U Tay's review — single-file edit in
+// dictionary.ts when corrections arrive.
 const members: Member[] = [
-  { nameKey: "council.lead1.name", roleKey: "council.lead1.role", seed: "u-ngwe-tun", lead: true },
-  { nameKey: "council.lead2.name", roleKey: "council.lead2.role", seed: "u-htay-team", lead: true },
-  { nameKey: "council.m1.name",    roleKey: "council.m1.role",    seed: "razinda" },
-  { nameKey: "council.m2.name",    roleKey: "council.m2.role",    seed: "nottara" },
-  { nameKey: "council.m3.name",    roleKey: "council.m3.role",    seed: "pyi-htut" },
-  { nameKey: "council.m4.name",    roleKey: "council.m4.role",    seed: "moe-myint" },
-  { nameKey: "council.m5.name",    roleKey: "council.m5.role",    seed: "moe-shein" },
+  { nameKey: "council.lead1.name", roleKey: "council.lead1.role", seed: "u-tay",       lead: true },
+  { nameKey: "council.lead2.name", roleKey: "council.lead2.role", seed: "u-ngwe-tun",  lead: true },
+  { nameKey: "council.m1.name",    roleKey: "council.m1.role",    seed: "sandarwara" },
+  { nameKey: "council.m2.name",    roleKey: "council.m2.role",    seed: "razeinda" },
+  { nameKey: "council.m3.name",    roleKey: "council.m3.role",    seed: "zaw-nyunt" },
+  { nameKey: "council.m4.name",    roleKey: "council.m4.role",    seed: "pyi-wa-tun" },
+  { nameKey: "council.m5.name",    roleKey: "council.m5.role",    seed: "moe-myint" },
+  { nameKey: "council.m6.name",    roleKey: "council.m6.role",    seed: "moe-shein" },
 ];
 
 const Council = () => {

@@ -1,7 +1,7 @@
 // Mettamyay bilingual dictionary.
 // Burmese strings come VERBATIM from the founding charter (05/01/2026).
 // Romanisations of monks/lay supporters are isolated here so a single edit
-// fixes every component once U Htay confirms the canonical spellings.
+// fixes every component once Sayadaw U Tay confirms the canonical spellings.
 
 export type Lang = "en" | "my";
 
@@ -338,7 +338,7 @@ export const dict = {
   "footer.l.support":  { en: "Support",          my: "ထောက်ပံ့ရန်" },
   "footer.l.site":     { en: "metabumi.org",     my: "metabumi.org" },
   "footer.l.country":  { en: "Myanmar",          my: "မြန်မာ" },
-  "footer.l.team":     { en: "U Htay & Team",    my: "ဦးတေ နှင့်အဖွဲ့" },
+  "footer.l.team":     { en: "Sayadaw U Tay & Team",    my: "ဆရာတော် ဦးတေ နှင့်အဖွဲ့" },
   "footer.copyright":  { en: "© 2026 Mettamyay. All rights reserved.", my: "© ၂၀၂၆ မေတ္တာမြေ။ မူပိုင်ခွင့် ထိန်းသိမ်းထားသည်။" },
   "footer.motto":      { en: "မေတ္တာမြေ — Ground of Loving Kindness", my: "မေတ္တာမြေ — မေတ္တာတရားကိန်းဝပ်ရာမြေ" },
 } satisfies Record<string, Entry>;
