@@ -9,7 +9,7 @@ type Card = { icon: string; role: RoleValue; labelKey: DictKey; titleKey: DictKe
 const cards: Card[] = [
   { icon: "🌱", role: "train",      labelKey: "role.train.label",      titleKey: "role.train.title",      bodyKey: "role.train.body",      ctaKey: "role.train.cta" },
   { icon: "🌟", role: "youth",      labelKey: "role.youth.label",      titleKey: "role.youth.title",      bodyKey: "role.youth.body",      ctaKey: "role.youth.cta" },
-  { icon: "🏛", role: "partner",    labelKey: "role.partner.label",    titleKey: "role.partner.title",    bodyKey: "role.partner.body",    ctaKey: "role.partner.cta" },
+  { icon: "☸",  role: "partner",    labelKey: "role.partner.label",    titleKey: "role.partner.title",    bodyKey: "role.partner.body",    ctaKey: "role.partner.cta" },
   { icon: "🏡", role: "client",     labelKey: "role.client.label",     titleKey: "role.client.title",     bodyKey: "role.client.body",     ctaKey: "role.client.cta" },
   { icon: "💛", role: "support",    labelKey: "role.support.label",    titleKey: "role.support.title",    bodyKey: "role.support.body",    ctaKey: "role.support.cta" },
   { icon: "⚒", role: "contractor", labelKey: "role.contractor.label", titleKey: "role.contractor.title", bodyKey: "role.contractor.body", ctaKey: "role.contractor.cta" },
