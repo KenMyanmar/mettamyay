@@ -1,6 +1,7 @@
 import Nav from "@/components/mettamyay/Nav";
 import Hero from "@/components/mettamyay/Hero";
 import Manifesto from "@/components/mettamyay/Manifesto";
+import WhatIsBaka from "@/components/mettamyay/WhatIsBaka";
 import WhatWeAre from "@/components/mettamyay/WhatWeAre";
 import Pillars from "@/components/mettamyay/Pillars";
 import Model from "@/components/mettamyay/Model";
@@ -19,6 +20,10 @@ const Index = () => (
     <Nav />
     <Hero />
     <Manifesto />
+    {/* Order: Manifesto → WhatIsBaka → WhatWeAre → Pillars.
+        Readers must understand "Baka" before reading "we are not a charity that
+        only builds for Baka schools." Do not reorder. */}
+    <WhatIsBaka />
     <WhatWeAre />
     <Pillars />
     <Model />
