@@ -56,7 +56,21 @@ export const dict = {
     en: "From the earth beneath our feet, we find not only shelter, but the very ground of our becoming.",
     my: "ခြေဖျားအောက်က မြေကြီးထဲမှ ငါတို့သည် နေထိုင်ရာသာမက ငါတို့ ဖြစ်တည်မှု၏ အရင်းခံ မြေကိုပါ ရှာတွေ့ကြသည်။",
   },
-  "man.quoteAuthor": { en: "U Htay — Head Sayadaw, Mettamyay", my: "ဦးတေ — အကြီးအကဲ ဆရာတော်၊ မေတ္တာမြေ" },
+  "man.quoteAuthor": { en: "Sayadaw U Tay — Head Sayadaw, Mettamyay", my: "ဆရာတော် ဦးတေ — အကြီးအကဲ ဆရာတော်၊ မေတ္တာမြေ" },
+
+  // ── What is Baka? (explainer for non-Burmese readers) ─────────────
+  "baka.eyebrow": { en: "Context", my: "အကြောင်းအရင်း" },
+  "baka.title":   { en: "What is Baka?", my: "ဘက ဆိုသည်မှာ အဘယ်နည်း။" },
+  "baka.body": {
+    en: "In Myanmar, \"Baka\" refers to monastic education schools established and managed by monks, often following the public curriculum while also transmitting Buddhist values, discipline, and community responsibility. Across Myanmar, monastic schools serve hundreds of thousands of children, many from underserved backgrounds.",
+    my: "မြန်မာနိုင်ငံတွင် \"ဘက\" ဆိုသည်မှာ ဘုန်းတော်ကြီးများ တည်ထောင် ဦးစီးထားသော ဘုန်းတော်ကြီးသင် ပညာရေး ကျောင်းများကို ဆိုလိုသည်။ နိုင်ငံတော်၏ သင်ရိုးညွှန်းတမ်းကို လိုက်နာရင်း ဗုဒ္ဓဘာသာ၏ တန်ဖိုးများ၊ စည်းကမ်း၊ ရပ်ရွာအတွက် တာဝန်ယူမှုများကိုပါ ပူးတွဲ သင်ကြားပေးပါသည်။ မြန်မာတဝန်းတွင် ဘုန်းတော်ကြီးသင် ကျောင်းများသည် ပညာရေးဆိုင်ရာ အခွင့်အလမ်း နည်းပါးသော ကလေး သိန်းနှင့်ချီကို ထောက်ပံ့ပေးနေပါသည်။",
+  },
+  // Canonical "live classroom" framing — replaces earlier "buildings as side effect"
+  // language. Reusable across components.
+  "building.framing": {
+    en: "Each building is both a useful space and a live classroom. The structure remains, but the deeper outcome is the trained person who can build again.",
+    my: "အဆောက်အအုံတိုင်းသည် အသုံးဝင်သော နေရာတစ်ခုလည်း ဖြစ်ပြီး၊ လက်တွေ့ စာသင်ခန်းတစ်ခုလည်း ဖြစ်သည်။ အဆောက်အအုံ ကျန်ရစ်ပါသည် — သို့သော် ပိုနက်နဲသော ရလဒ်မှာ နောက်တစ်ကြိမ် ထပ်မံ တည်ဆောက်နိုင်သော ကျွမ်းကျင်ပြီးသူ တစ်ဦး ဖြစ်ပါသည်။",
+  },
 
   // ── Pillars ────────────────────────────────────────────────────────
   "pillars.eyebrow": { en: "The Four Pillars", my: "မဏ္ဍိုင်လေးရပ်" },
@@ -86,7 +100,7 @@ export const dict = {
   // ── Model (Replication Cycle — 5 steps, drawn as a loop) ──────────
   "model.eyebrow": { en: "The Replication Cycle", my: "ပြန့်ပွားမှု စက်ဝန်း" },
   "model.title":   { en: "A self-replicating cycle.", my: "မိမိကိုယ်ကို ပြန့်ပွားစေသော စက်ဝန်း။" },
-  "model.sub":     { en: "Learn → Build → Teach → Earn → Replicate. Teach-before-Earn is what makes the movement multiply.", my: "သင်ယူ → တည်ဆောက် → သင်ကြား → ဝင်ငွေရှာ → ပြန့်ပွား။ ဝင်ငွေမရှာမီ သင်ကြားခြင်းက လှုပ်ရှားမှုကို ပွားများစေသည်။" },
+  "model.sub":     { en: "Learn → Build → Earn → Teach → Replicate. Each loop produces builders who can build again — and teach the next cohort.", my: "သင်ယူ → တည်ဆောက် → ဝင်ငွေရှာ → သင်ကြား → ပြန့်ပွား။ စက်ဝန်းတိုင်းသည် ထပ်မံ တည်ဆောက်နိုင်ပြီး နောက်တစ်ဆင့်ကို သင်ကြားပေးနိုင်သော ဆောက်တတ်သူများကို မွေးထုတ်ပေးသည်။" },
   "model.s1.tag":  { en: "01 — Learn", my: "၀၁ — သင်ယူ" },
   "model.s1.t":    { en: "Earth Skills", my: "မြေသား ကျွမ်းကျင်မှု" },
   "model.s1.b": {
@@ -96,20 +110,20 @@ export const dict = {
   "model.s2.tag":  { en: "02 — Build", my: "၀၂ — တည်ဆောက်" },
   "model.s2.t":    { en: "Live Classrooms", my: "လက်တွေ့ စာသင်ခန်းများ" },
   "model.s2.b": {
-    en: "Apprentices apply skills on real demonstration projects. The buildings are a side effect of the training — the graduates are the product.",
-    my: "သင်တန်းသားများသည် လက်တွေ့ စီမံကိန်းများတွင် ကျွမ်းကျင်မှုကို အသုံးပြုသည်။ အဆောက်အအုံများသည် သင်တန်း၏ ဘေးထွက်အကျိုးဖြစ်ပြီး — အဓိက ထွက်ကုန်မှာ ဘွဲ့ရသူများ ဖြစ်သည်။",
+    en: "Apprentices apply skills on real demonstration projects. Each building is both a useful space and a live classroom — the structure remains, and so does the trained person who can build again.",
+    my: "သင်တန်းသားများသည် လက်တွေ့ စီမံကိန်းများတွင် ကျွမ်းကျင်မှုကို အသုံးပြုသည်။ အဆောက်အအုံတိုင်းသည် အသုံးဝင်သော နေရာတစ်ခုလည်း ဖြစ်ပြီး လက်တွေ့ စာသင်ခန်းတစ်ခုလည်း ဖြစ်သည် — အဆောက်အအုံ ကျန်ရစ်ပြီး၊ ထပ်မံ တည်ဆောက်နိုင်သော ကျွမ်းကျင်ပြီးသူလည်း ကျန်ရစ်ပါသည်။",
   },
-  "model.s3.tag":  { en: "03 — Teach", my: "၀၃ — သင်ကြား" },
-  "model.s3.t":    { en: "The Multiplier", my: "ပွားများစေသူ" },
+  "model.s3.tag":  { en: "03 — Earn", my: "၀၃ — ဝင်ငွေရှာ" },
+  "model.s3.t":    { en: "Livelihood", my: "အသက်မွေးဝမ်းကျောင်း" },
   "model.s3.b": {
-    en: "Graduates teach the next cohort. This is the step that turns a project into a movement.",
-    my: "ဘွဲ့ရသူများက နောက်တစ်ဆင့် သင်တန်းသားများကို ပြန်လည် သင်ကြားပေးသည်။ ဤအဆင့်က စီမံကိန်းကို လှုပ်ရှားမှုအဖြစ် ပြောင်းလဲစေသည်။",
-  },
-  "model.s4.tag":  { en: "04 — Earn", my: "၀၄ — ဝင်ငွေရှာ" },
-  "model.s4.t":    { en: "Livelihood", my: "အသက်မွေးဝမ်းကျောင်း" },
-  "model.s4.b": {
     en: "Trained builders generate livelihoods — construction, repair, materials supply, and eco-spaces — across Myanmar.",
     my: "လေ့ကျင့်ပြီး တည်ဆောက်သူများသည် ဆောက်လုပ်ရေး၊ ပြင်ဆင်ရေး၊ ပစ္စည်း ထောက်ပံ့ရေး၊ နှင့် သဘာဝ နေထိုင်ရာ နေရာများမှ ဝင်ငွေကို မြန်မာတဝန်းတွင် ရှာဖွေသည်။",
+  },
+  "model.s4.tag":  { en: "04 — Teach", my: "၀၄ — သင်ကြား" },
+  "model.s4.t":    { en: "The Multiplier", my: "ပွားများစေသူ" },
+  "model.s4.b": {
+    en: "Graduates teach the next cohort. This is the step that turns a project into a movement.",
+    my: "ဘွဲ့ရသူများက နောက်တစ်ဆင့် သင်တန်းသားများကို ပြန်လည် သင်ကြားပေးသည်။ ဤအဆင့်က စီမံကိန်းကို လှုပ်ရှားမှုအဖြစ် ပြောင်းလဲစေသည်။",
   },
   "model.s5.tag":  { en: "05 — Replicate", my: "၀၅ — ပြန့်ပွား" },
   "model.s5.t":    { en: "Seed New Villages", my: "ရွာသစ်များတွင် ပျိုးထောင်" },
@@ -134,11 +148,11 @@ export const dict = {
   "wwa.not4": { en: "A school-building-only organisation",                            my: "ကျောင်းဆောက်ရုံသာ လုပ်သော အဖွဲ့အစည်း မဟုတ်ပါ" },
   "wwa.not5": { en: "A foreign-style architecture brand",                             my: "နိုင်ငံခြားပုံစံ ဗိသုကာ အမှတ်တံဆိပ် မဟုတ်ပါ" },
 
-  // ── Stats ──────────────────────────────────────────────────────────
-  "stats.pillars":   { en: "Core Pillars",         my: "အဓိက မဏ္ဍိုင်များ" },
-  "stats.pathways":  { en: "Pathways for People",  my: "လူများအတွက် လမ်းကြောင်းများ" },
-  "stats.mission":   { en: "Mission: Myanmar",     my: "မြန်မာ့ ရည်မှန်းချက်" },
-  "stats.global":    { en: "Globally Connected",   my: "ကမ္ဘာနှင့် ချိတ်ဆက်" },
+  // ── Stats (honest launch values, 11 May 2026) ─────────────────────
+  "stats.village":   { en: "Learning Village",            my: "သင်ယူရွာ" },
+  "stats.levels":    { en: "Training Levels",             my: "သင်တန်းအဆင့်များ" },
+  "stats.pathways":  { en: "Livelihood Pathways",         my: "အသက်မွေးလမ်းများ" },
+  "stats.updates":   { en: "Quarterly Impact Updates",    my: "သုံးလတစ်ကြိမ် အစီရင်ခံချက်" },
 
   // ── Pathways ───────────────────────────────────────────────────────
   "path.eyebrow":   { en: "Who Mettamyay Is For", my: "မေတ္တာမြေသည် မည်သူတို့အတွက်နည်း" },
@@ -225,22 +239,26 @@ export const dict = {
     en: "Mettamyay is guided by a council of senior Sayadaws and lay professionals across Myanmar.",
     my: "မေတ္တာမြေသည် ဆရာတော်များ၏ ပညာဉာဏ်နှင့် ပညာရှင်များ၏ လမ်းပြမှုဖြင့် ဦးဆောင်ပါသည်။",
   },
-  // CPME acronym is unverified at time of writing — we render the lead's
-  // name without the acronym until U Htay confirms (within 72h).
-  "council.lead1.name":    { en: "U Ngwe Tun", my: "ဦးငွေထွန်း" },
-  "council.lead1.role":    { en: "Lead contact · Maphalan Monastic School, Phaya Gyi Monastery, Mandalay", my: "အဓိက ဆက်သွယ်သူ · မဖလန် ဘုန်းတော်ကြီးသင်ကျောင်း၊ ဘုရားကြီးတိုက်၊ မန္တလေး" },
-  "council.lead2.name":    { en: "U Htay & Team", my: "ဦးတေ နှင့်အဖွဲ့" },
-  "council.lead2.role":    { en: "Head guidance", my: "အဓိက လမ်းညွှန်" },
-  "council.m1.name":       { en: "Sayadaw U Razinda Theiri", my: "ဦးရာဇိန္ဒသီရိ" },
-  "council.m1.role":       { en: "Naungtaung Parahita School, Hopong, Southern Shan State", my: "နောင်တောင် ပရဟိတ ကျောင်း၊ ဟိုပုံး၊ တောင်ပိုင်း ရှမ်းပြည်နယ်" },
-  "council.m2.name":       { en: "Sayadaw U Nottara", my: "ဦးနော္တရ" },
-  "council.m2.role":       { en: "Dhammarama Monastic School, Hlaing Township, Yangon Region", my: "ဓမ္မာရာမ ဘုန်းတော်ကြီးသင်ကျောင်း၊ လှိုင်မြို့နယ်၊ ရန်ကုန်တိုင်း" },
-  "council.m3.name":       { en: "Sayadaw U Pyi Htut", my: "ဦးပြည်ထွဋ်" },
-  "council.m3.role":       { en: "Myanmar Monastic Schools Development · Parago Sworar Co.", my: "မြန်မာ ဘုန်းတော်ကြီး သင်ကျောင်း ဖွံ့ဖြိုးရေး · ပါရဂူ စွောရာ ကုမ္ပဏီ" },
-  "council.m4.name":       { en: "U Zeya Moe Myint", my: "ဦးဇေယျာမိုးမြင့်" },
-  "council.m4.role":       { en: "Veterinary specialist · farm owner", my: "တိရစ္ဆာန် ဆေးကုဆရာဝန် · ခြံပိုင်ရှင်" },
-  "council.m5.name":       { en: "U Zeya Moe Shein", my: "ဦးဇေယျာမိုးရှိန်" },
-  "council.m5.role":       { en: "Doctor · farm owner", my: "ဆရာဝန် · ခြံပိုင်ရှင်" },
+  // Council romanisations + Burmese spellings confirmed by Ken on 11 May 2026.
+  // m1 (Sandarwara), m3 (Zaw Nyunt), m4 (Pyi Wa Tun) Burmese spellings are
+  // best-guesses pending Sayadaw U Tay's review. Single-file edit here when
+  // corrections arrive — no migration needed.
+  "council.lead1.name":    { en: "Sayadaw U Tay", my: "ဆရာတော် ဦးတေ" },
+  "council.lead1.role":    { en: "Head Sayadaw, founding monastic leader", my: "အကြီးအကဲ ဆရာတော်၊ မေတ္တာမြေ" },
+  "council.lead2.name":    { en: "Sayadaw U Ngwe Tun", my: "ဆရာတော် ဦးငွေထွန်း" },
+  "council.lead2.role":    { en: "Lead contact · Maphalan Monastic School, Phaya Gyi Monastery, Mandalay", my: "အဓိက ဆက်သွယ်သူ · မဖလန် ဘုန်းတော်ကြီးသင်ကျောင်း၊ ဘုရားကြီးတိုက်၊ မန္တလေး" },
+  "council.m1.name":       { en: "Sayadaw U Sandarwara", my: "ဆရာတော် ဦးစန္ဒရဝါရ" },
+  "council.m1.role":       { en: "Founding monastic supporter · Sandarama Baka School", my: "ဦးဆောင် ဆရာတော် · စန္ဒရာမ ဘကကျောင်း" },
+  "council.m2.name":       { en: "Sayadaw U Razeinda Thiri", my: "ဆရာတော် ဦးရာဇိန္ဒသီရိ" },
+  "council.m2.role":       { en: "Naung Taung monastic education leader · Southern Shan State", my: "နောင်တောင် ဆရာတော် · ရှမ်းပြည် တောင်ပိုင်း" },
+  "council.m3.name":       { en: "Saya Zaw Nyunt", my: "ဆရာ ဇော်ညွန့်" },
+  "council.m3.role":       { en: "Natural building teacher · technical trainer", my: "သဘာဝဆောက်လုပ်ရေး နည်းပြ ဆရာ" },
+  "council.m4.name":       { en: "U Pyi Wa Tun", my: "ဦးပြည်ဝါထွန်း" },
+  "council.m4.role":       { en: "PyinYawDaya Foundation · Baka sustainability advocate", my: "ပြည်ယောဒယ ဖောင်ဒေးရှင်း · ဘက ရေရှည်တည်တံ့မှု ဆောင်ရွက်သူ" },
+  "council.m5.name":       { en: "U Zeya Moe Myint", my: "ဦးဇေယျာမိုးမြင့်" },
+  "council.m5.role":       { en: "Veterinary specialist · farm owner", my: "တိရစ္ဆာန် ဆေးကုဆရာဝန် · ခြံပိုင်ရှင်" },
+  "council.m6.name":       { en: "U Zeya Moe Shein", my: "ဦးဇေယျာမိုးရှိန်" },
+  "council.m6.role":       { en: "Doctor · farm owner", my: "ဆရာဝန် · ခြံပိုင်ရှင်" },
 
   // ── Vision ─────────────────────────────────────────────────────────
   "vision.eyebrow": { en: "The Vision", my: "မျှော်မှန်းချက်" },
@@ -266,6 +284,15 @@ export const dict = {
   "loc.address": {
     en: "Naung Wal Village, Pyin Sa Village Tract, PyinOoLwin Township, Mandalay Region, Myanmar",
     my: "နောင်ဝယ်ကျေးရွာ၊ ပြင်စာအုပ်စု၊ ပြင်ဦးလွင်မြို့နယ်၊ မန္တလေးတိုင်းဒေသကြီး၊ မြန်မာနိုင်ငံ",
+  },
+  "loc.regionLabel": { en: "Region", my: "ဒေသ" },
+  "loc.regionShort": {
+    en: "PyinOoLwin area, Mandalay Region, Myanmar",
+    my: "ပြင်ဦးလွင်ဒေသ၊ မန္တလေးတိုင်း၊ မြန်မာနိုင်ငံ",
+  },
+  "loc.regionNote": {
+    en: "Exact coordinates and a precise map will publish once finalised.",
+    my: "တိကျသော တည်နေရာနှင့် မြေပုံကို နောက်ပိုင်းတွင် ထပ်မံ ထုတ်ပြန်ပါမည်။",
   },
 
   // ── Contact ────────────────────────────────────────────────────────
