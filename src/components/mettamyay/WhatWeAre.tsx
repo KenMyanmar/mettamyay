@@ -49,6 +49,10 @@ const WhatWeAre = () => {
             </ul>
           </div>
         </div>
+
+        <p className="font-serif-elegant italic text-mm-charcoal/85 text-[1rem] md:text-[1.1rem] leading-[1.8] max-w-[760px] mt-12 border-l-2 border-mm-clay/40 pl-5">
+          {t("building.framing")}
+        </p>
       </div>
     </section>
   );

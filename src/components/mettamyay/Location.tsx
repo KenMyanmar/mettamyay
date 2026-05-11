@@ -1,12 +1,8 @@
 import { useReveal } from "@/hooks/useReveal";
 import { useT } from "@/i18n/LangProvider";
 
-// NOTE: Awaiting precise Naung Wal share-link from Ken. For now we center on
-// PyinOoLwin Township with an approximate marker; swap the `src` once the
-// canonical pin arrives.
-const MAP_SRC =
-  "https://www.google.com/maps?q=Pyin+Oo+Lwin,+Mandalay+Region,+Myanmar&hl=en&z=11&output=embed";
-
+// Iframe map removed pending canonical Naung Wal coordinates from Ken.
+// An approximate pin reduces trust — text-only block until the real pin lands.
 const Location = () => {
   const t = useT();
   const ref = useReveal();
@@ -25,14 +21,12 @@ const Location = () => {
           <p className="text-mm-earth text-[1rem] leading-[1.85] max-w-[460px]">{t("loc.address")}</p>
         </div>
 
-        <div className="rounded-sm overflow-hidden border border-mm-clay/20 shadow-sm aspect-[4/3] bg-mm-mist">
-          <iframe
-            title="Mettamyay location"
-            src={MAP_SRC}
-            loading="lazy"
-            referrerPolicy="no-referrer-when-downgrade"
-            className="w-full h-full border-0"
-          />
+        <div className="rounded-sm border border-mm-clay/20 bg-mm-warm-white p-10 md:p-12 flex flex-col items-start gap-4">
+          <span className="font-display text-[0.6rem] tracking-[0.25em] uppercase text-mm-clay">{t("loc.regionLabel")}</span>
+          <p className="font-serif-elegant text-mm-charcoal text-[1.4rem] md:text-[1.6rem] leading-snug">
+            {t("loc.regionShort")}
+          </p>
+          <p className="text-[0.85rem] text-mm-earth/75 italic leading-[1.6]">{t("loc.regionNote")}</p>
         </div>
       </div>
     </section>

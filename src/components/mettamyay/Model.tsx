@@ -5,6 +5,10 @@ const Model = () => {
   const t = useT();
   const ref = useReveal();
 
+  // Cycle order: Learn → Build → Earn → Teach → Replicate.
+  // Earn is placed before Teach so trainees do not parse the sequence as
+  // "you cannot earn until you teach" — the multiplier still works because
+  // Teach remains in the loop.
   const steps = [
     { tag: "model.s1.tag", title: "model.s1.t", body: "model.s1.b" },
     { tag: "model.s2.tag", title: "model.s2.t", body: "model.s2.b" },
